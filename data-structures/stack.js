@@ -1,3 +1,5 @@
+// http://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348
+
 var Stack = function() {
   this._size = 0;
   this._storage = {};
