@@ -1,3 +1,5 @@
+// http://code.tutsplus.com/articles/data-structures-with-javascript-singly-linked-list-and-doubly-linked-list--cms-23392
+
 var Node = function(data) {
   this.data = data;
   this.next = null;

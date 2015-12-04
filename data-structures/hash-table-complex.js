@@ -1,3 +1,5 @@
+// http://www.mojavelinux.com/articles/javascript_hashes.html
+
 var HashTable = function(obj) {
   this.length = 0;
   this.items = {};
