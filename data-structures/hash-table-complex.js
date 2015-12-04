@@ -85,14 +85,14 @@ HashTable.prototype.clear = function() {
   this.length = 0;
 };
 
-var h = new HashTable({one: 1, two: 2, three: 3, "i'm no 4": 4});
+var hash = new HashTable({one: 1, two: 2, three: 3, "i'm no 4": 4});
 
-console.log('original length: ' + h.length);
-console.log('value of key "one": ' + h.getItem('one'));
-console.log('has key "foo"? ' + h.hasItem('foo'));
-console.log('previous value of key "foo": ' + h.setItem('foo', 'bar'));
-console.log('length after setItem: ' + h.length);
-console.log('value of key "foo": ' + h.getItem('foo'));
-console.log('value of key "i\'m no 4": ' + h.getItem("i'm no 4"));
-h.clear();
-console.log('length after clear: ' + h.length);
+console.log('original length: ', hash.length);
+console.log('value of key "one": ', hash.getItem('one'));
+console.log('has key "foo"? ', hash.hasItem('foo'));
+console.log('previous value of key "foo": ', hash.setItem('foo', 'bar'));
+console.log('length after setItem: ', hash.length);
+console.log('value of key "foo": ', hash.getItem('foo'));
+console.log('value of key "i\'m no 4": ', hash.getItem("i'm no 4"));
+hash.clear();
+console.log('length after clear: ', hash.length);
